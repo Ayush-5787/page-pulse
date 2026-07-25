@@ -4,8 +4,8 @@ A small tool that audits any URL: paste a link, get back its HTTP status, respon
 time, title, meta description, heading count, image accessibility gaps, and an
 approximate word count.
 
-Live: [add your deployed URL here]
-Repo: [add your GitHub URL here]
+Live: [https://page-pulse-omega-flame.vercel.app]
+Repo: [https://github.com/Ayush-5787/page-pulse]
 
 ## Setup
 
@@ -110,4 +110,4 @@ Error responses — shape is always `{ "error": string, "code": string }`:
 
 ## AI use disclosure
 
-*(Edit this before submitting — see the note in the chat for what to say here.)*
+*(I used Claude to scaffold the API structure, error handling, and test cases, then reviewed the code, added the health score and the private-address security check myself, and rewrote the reasoning in my own words before submitting.)*
